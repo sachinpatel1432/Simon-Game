@@ -56,7 +56,7 @@ function checkAns(idx) {
                
           }
      } else {
-          h2.innerHTML = `Game Over! Your score was <b>${lavel}</b> <br> Press any key to start.`;
+          h2.innerHTML = `Game Over! Your score was <b>${lavel}</b> <br> Press Start Game to start.`;
           document.querySelector("body").style.backgroundColor = "red";
           setTimeout(function() {
                document.querySelector("body").style.backgroundColor = "white";
